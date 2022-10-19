@@ -18,6 +18,10 @@ export default function Footer() {
           </MDBBtn>
 
 
+          <MDBBtn outline color="light" floating className='m-1' href='mailto:kaelinpsalazar@gmail.com' role='button'>
+          <MDBIcon far icon="envelope" />
+          </MDBBtn>
+
           <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/kaelin-salazar-378348250/' role='button'>
             <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
