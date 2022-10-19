@@ -2,9 +2,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Contact from "./components/Contact";
-import Biography from "./components/Biography"
-import Projects from "./components/Projects"
+import Contact from "./Pages/Contact/Contact";
+import Biography from "./Pages/Biography/Biography"
+import Projects from "./Pages/Projects/Projects"
 import { useState } from "react";
 
 
