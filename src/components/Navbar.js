@@ -24,18 +24,7 @@ function Navbar({ setCurrentPage }) {
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  onClick={() => {
-                    setCurrentPage("HomePage");
-                  }}
-                  class="text-white nav-link active"
-                  aria-current="page"
-                  href="#"
-                >
-                  Home
-                </a>
-              </li>
+              
               <li class="nav-item">
                 <a
                   onClick={() => {

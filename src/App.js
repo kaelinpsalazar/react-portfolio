@@ -10,7 +10,7 @@ import { useState } from "react";
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("HomePage");
+  const [currentPage, setCurrentPage] = useState("Biography");
   function render() {
     if (currentPage === "Biography") {
       return <Biography />;
