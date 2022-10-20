@@ -6,19 +6,27 @@ import Team from '../../assets/images/Team-Profile-Generator.png'
 import Registry from '../../assets/images/The-Registry.jpeg'
 import Quiz from '../../assets/images/timed-quiz.png'
 import Weather from '../../assets/images/Weather-App.png'
+import Container from "react-bootstrap/esm/Container"
+import "./Projects.css"
 
 
 function Projects() {
   return (
+  <Container >
     <Card style={{ width: '18rem' }}>
-      <div>
+      <div class="row ">
         <Card.Img variant="top" src={Foodies} />
-        <Card.Body>
+        <Card.Body >
           <Card.Title>The Foodies</Card.Title>
           <Card.Text>
             An application using API databases to find meals and update custom user reviews.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://github.com/timberhead/the-foo-d-s">
+            <Button variant="primary">Github</Button>
+          </a>
+          <a href="https://the-fair-fare.herokuapp.com/">
+            <Button variant="primary">Deployed Link</Button>
+          </a>
         </Card.Body>
       </div>
       <div>
@@ -28,7 +36,12 @@ function Projects() {
           <Card.Text>
             An application using API databases to find animals that are up for adoption in your area. 
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://github.com/csundheimjr/fuzzy-friend-finder">
+            <Button variant="primary">Github</Button>
+          </a>
+          <a href="https://csundheimjr.github.io/fuzzy-friend-finder/">
+            <Button variant="primary">Deployed Link</Button>
+          </a>
         </Card.Body>
       </div>
       <div>
@@ -38,7 +51,12 @@ function Projects() {
           <Card.Text>
             A javascript application that allows the user to track their work team members and tasks. 
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://github.com/kaelinpsalazar/tram-profile-generator">
+            <Button variant="primary">Github</Button>
+          </a>
+          <a href="https://github.com/csundheimjr/fuzzy-friend-finder">
+            <Button variant="primary">Deployed Link</Button>
+          </a>
         </Card.Body>
       </div>
       <div>
@@ -48,7 +66,12 @@ function Projects() {
           <Card.Text>
             This is a registry application that allows the user to purchase or commit monetray amounts to a specific registry.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://github.com/kaelinpsalazar/The-Registry">
+            <Button variant="primary">Github</Button>
+          </a>
+          <a href="https://whispering-coast-62095.herokuapp.com/">
+            <Button variant="primary">Deployed Link</Button>
+          </a>
         </Card.Body>
       </div>
       <div>
@@ -58,7 +81,12 @@ function Projects() {
           <Card.Text>
             This is a javascript application that allows the user to play in a timed quiz and learn about JS!
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://github.com/kaelinpsalazar/Timed-Quiz">
+            <Button variant="primary">Github</Button>
+          </a>
+          <a href="https://kaelinpsalazar.github.io/Timed-Quiz/">
+            <Button variant="primary">Deployed Link</Button>
+          </a>
         </Card.Body>
       </div>
       <div>
@@ -68,10 +96,16 @@ function Projects() {
           <Card.Text>
             This application uses a weather API database to find the weather in your desired city and then see the forcast for the next 5 days. 
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://github.com/kaelinpsalazar/weather-application">
+            <Button variant="primary">Github</Button>
+          </a>
+          <a href="https://kaelinpsalazar.github.io/weather-application/">
+            <Button variant="primary">Github</Button>
+          </a>
         </Card.Body>
       </div>
     </Card>
+  </Container>
   );
 }
 

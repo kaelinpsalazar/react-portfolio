@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Contact from "./Pages/Contact/Contact";
 import Biography from "./Pages/Biography/Biography"
 import Projects from "./Pages/Projects/Projects"
+import Resume from "./Pages/Resume/Resume"
 import { useState } from "react";
 
 
@@ -17,6 +18,8 @@ function App() {
       return <Contact />;
     } else if (currentPage === "Projects") {
       return <Projects />;
+    } else if (currentPage === "Resume") {
+      return <Resume />;
     }
   }
   return (

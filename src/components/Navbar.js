@@ -2,13 +2,13 @@ import React from 'react'
 
 function Navbar({ setCurrentPage }) {
   return (
-    <div class="sticky-top">
+    <div class=" bg-dark  sticky-top">
       <nav
         class="navbar navbar-expand-lg rounded-3 m-2 border border-3"
         id="navbar"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="text-white navbar-brand" href="#">
             Kaelin Salazar
           </a>
           <button
@@ -29,7 +29,7 @@ function Navbar({ setCurrentPage }) {
                   onClick={() => {
                     setCurrentPage("HomePage");
                   }}
-                  class="nav-link active"
+                  class="text-white nav-link active"
                   aria-current="page"
                   href="#"
                 >
@@ -41,7 +41,7 @@ function Navbar({ setCurrentPage }) {
                   onClick={() => {
                     setCurrentPage("Biography");
                   }}
-                  class="nav-link active"
+                  class=" text-white nav-link active"
                   aria-current="page"
                   href="#"
                 >
@@ -53,7 +53,7 @@ function Navbar({ setCurrentPage }) {
                   onClick={() => {
                     setCurrentPage("Projects");
                   }}
-                  class="nav-link active"
+                  class="text-white nav-link active"
                   href="#"
                 >
                   Projects
@@ -64,10 +64,21 @@ function Navbar({ setCurrentPage }) {
                   onClick={() => {
                     setCurrentPage("Contact");
                   }}
-                  class="nav-link active"
+                  class=" text-white nav-link active"
                   href="#"
                 >
                   Contact
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  onClick={() => {
+                    setCurrentPage("Resume");
+                  }}
+                  class="text-white nav-link active"
+                  href="#"
+                >
+                  Resume
                 </a>
               </li>
             </ul>

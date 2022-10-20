@@ -3,7 +3,8 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 function Contact() {
-  const submitForm = () => {};
+  // formId = 'YniAffcH'
+  // const formUrl = `https://submit-form.com/YniAffcH/${formId}`
   return (
     <Form action="https://submit-form.com/YniAffcH">
       <h1>Contact Me</h1>
@@ -24,7 +25,7 @@ function Contact() {
 
       <Form.Group className="mb-3" name="exampleForm.ControlTextarea1">
         <Form.Label>Example textarea</Form.Label>
-        <Form.Control as="textarea" rows={3} />
+        <Form.Control name="textarea" rows={3} />
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit
